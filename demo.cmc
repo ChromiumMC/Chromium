@@ -1,0 +1,24 @@
+@Resource_Pack:
+ [item/tablet_model,C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.json, recovered_orcale,C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.png];
+ 
+
+
+
+@Custom_Model_Data[item/red_dye]:
+ { "predicate": {"custom_model_data": 5000}, "model": "item/tablet_model"}
+ 
+
+
+@Tick:
+execute as @a[tag=demo] at @s run
+ Say TICK!
+
+@Load:
+say Loaded Datapack! 
+
+test/test:
+summon cat
+summon Sheep
+say Spawned! 
+give @s red_dye{CustomModelData:5000} 1
+

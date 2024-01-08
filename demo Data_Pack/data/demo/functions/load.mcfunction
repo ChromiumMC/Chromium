@@ -1,0 +1,2 @@
+say Loaded Datapack! 
+
