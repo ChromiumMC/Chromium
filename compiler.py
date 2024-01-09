@@ -1,9 +1,10 @@
 import ams_compiler as compiler
+import re
 from datapack_generator import datapack_build
 from resourcepack_generator import resourcepack_build
 
 def main(input_file, debug_mode=True):
-    syntax_content = open(input_file, "r+").read().replace('run {','run').replace('run {','run')
+    syntax_content = open(input_file, "r+").read().replace('run{','run')
     blocks = syntax_content.strip().split('\n\n')
 
     compiled_data = []
@@ -31,6 +32,13 @@ def compile(infile, outfile, debug=False):
 
 if __name__ == '__main__':
     input_file = "demo.cmc" # Provide the input file path
+    with open(input_file, "r+") as file:
+        content = file.read()
+        content = re.sub(r'run\s*{', 'run{', content)
+        file.seek(0)
+        file.write(content)
+        file.truncate()
+
     compiled_data = main(input_file, debug_mode=True)
     pack_id = input_file.replace(".cmc","").replace(" ","_").lower()
     datapack_build(pack_id,compiled_data)
