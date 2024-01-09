@@ -5,13 +5,13 @@
 
 
 @Custom_Model_Data[item/red_dye]:
- { "predicate": {"custom_model_data": 5000}, "model": "item/tablet_model"}
+ {"predicate": {"custom_model_data": 5000}, "model": "item/tablet_model"}
  
 
 
 @Tick:
 execute as @a[tag=demo] at @s run
- Say TICK!
+ say TICK!
 
 @Load:
 say Loaded Datapack! 
