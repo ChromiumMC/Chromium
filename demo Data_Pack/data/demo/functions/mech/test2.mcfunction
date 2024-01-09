@@ -1,0 +1,3 @@
+summon camel 
+setblock ~ ~ ~ cactus 
+

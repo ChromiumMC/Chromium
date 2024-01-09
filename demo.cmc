@@ -10,15 +10,28 @@
 
 
 @Tick:
-execute as @a[tag=demo] at @s run
+execute as @a[tag=demo] at @s run {
  say TICK!
+ summon sheep{nbt}
+ summon cow
+}
+execute as @a[tag=player] at @s run 
+ function demo:mech/test
+
 
 @Load:
 say Loaded Datapack! 
 
-test/test:
+mech/test:
 summon cat
-summon Sheep
+summon sheep
 say Spawned! 
 give @s red_dye{CustomModelData:5000} 1
+
+mech/test2:
+summon camel
+setblock ~ ~ ~ cactus
+
+
+
 
