@@ -4,7 +4,7 @@
 
 ## Introduction
 
-Chromium is a multipurpose scripting language that aims to simplify the experience of making Minecraft Datapacks and Resource Packs through only one file. It is designed to be easy to learn and used by Datapack Creators/MapMakers.
+Chromium is a multipurpose scripting language that aims to simplify the development Minecraft Datapacks. It is designed to be easy to learn and used by Datapack Creators/MapMakers.
 
 ## Features
 
