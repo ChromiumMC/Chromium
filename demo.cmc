@@ -1,36 +1,22 @@
 @Resource_Pack:
- [item/tablet_model,C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.json, recovered_orcale,C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.png];
+ [item/tablet_model, C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.json, recovered_orcale, C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.png];
  
 
 
+@Custom_Model_Data[item/flint]:
+ {"predicate": {"custom_model_data": 1000}, "model": "item/tablet_model"}
 
-@Custom_Model_Data[item/red_dye]:
- {"predicate": {"custom_model_data": 5000}, "model": "item/tablet_model"}
- 
 
 
 @Tick:
-execute as @a[tag=demo] at @s run{
- say TICK!
- summon sheep{nbt}
- summon cow
+execute as @a[tag=!msg_sent] at @a run{
+ say Test
 }
-execute as @a[tag=player] at @s run 
- function demo:mech/test
 
-
-@Load:
-say Loaded Datapack! 
-
-mech/test:
-summon cat
-summon sheep
-say Spawned! 
-give @s red_dye{CustomModelData:5000} 1
-
-mech/test2:
-summon camel
-setblock ~ ~ ~ cactus
+test/game:
+execute as @a[tag=!msg_sent] at @a run{
+ say Test
+}
 
 
 

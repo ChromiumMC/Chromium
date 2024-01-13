@@ -5,7 +5,7 @@ import json
 
 def resourcepack_build(pack_name,resources_data):
    
- pack = ResourcePack(f"{pack_name} Resource_Pack")
+ pack = ResourcePack(f"{pack_name} resource_pack")
  
  #check & split
  for rp_fetch in resources_data:

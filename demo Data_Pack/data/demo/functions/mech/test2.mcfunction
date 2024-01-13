@@ -1,3 +1,0 @@
-summon camel 
-setblock ~ ~ ~ cactus 
-
