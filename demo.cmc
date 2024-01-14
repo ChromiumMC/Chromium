@@ -10,14 +10,19 @@
 
 @Tick:
 execute as @a[tag=!msg_sent] at @a run{
- say Test
+  say 1
+  say 2
+  say 3
 }
 
 test/game:
 execute as @a[tag=!msg_sent] at @a run{
- say Test
+ execute if entity @s run    
+ +say Test
+ +say Test2
+ +say Test1
 }
-
+say Non Branch 
 
 
 

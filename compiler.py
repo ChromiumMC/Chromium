@@ -4,7 +4,7 @@ from datapack_generator import datapack_build
 from resourcepack_generator import resourcepack_build
 
 def main(input_file, debug_mode=True):
-    syntax_content = open(input_file, "r+").read().replace("\n}","}")
+    syntax_content = open(input_file, "r+").read().replace("\n}","}").lstrip(" ")
     blocks = syntax_content.strip().split('\n\n')
 
     compiled_data = []
