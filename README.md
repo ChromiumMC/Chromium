@@ -22,16 +22,16 @@ To install and use this scripting language, follow these steps:
 3. Open the extracted folder and find the main script file.
 4. Open the script file and start writing your Minecraft datapack and/or resource pack code.
 
-For more detailed instructions and examples, read the [documentation(Coming Soon)](https://your-username.github.io/example)!
+For more detailed instructions and examples, read the [Coming Soon!](https://your-username.github.io/example)!
 
 ## Contributing
 
-Contributions are always welcome! If you'd like to contribute to this project, please read the [contributing guidelines](https://github.com/your-username/your-project-name/blob/main/CONTRIBUTING.md) before submitting a pull request.
+Contributions are always welcome! If you'd like to contribute to this project, please read the [Coming Soon!](https://github.com/your-username/your-project-name/blob/main/CONTRIBUTING.md) before submitting a pull request.
 
 ## License
 
-This project is licensed under the terms of the MIT License. See the [LICENSE](https://github.com/your-username/your-project-name/blob/main/LICENSE) file for more details.
+This project is licensed under the terms of the MIT License. See the [Coming Soon!](https://github.com/your-username/your-project-name/blob/main/LICENSE) file for more details.
 
 ## Contact
 
-If you have any questions , please contact the developer at your-email@example.com.
+If you have any questions , please consider joining [Discord Server](https://discord.gg/x3bvraa6q2)
