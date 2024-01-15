@@ -12,12 +12,17 @@ def process_syntax(input_syntax,data,pack_id,function_name,function_tags):
 
     
 
+    # The code block you provided is a function called `process_syntax` that processes the input
+    # syntax and generates functions for a datapack.
     # Extract content within the curly braces
     start_brace_index = input_syntax.find('{')
     end_brace_index = input_syntax.rfind('}')
 
     generated_function_name = randomcharactergenerator.rand_code()
 
+    # This code block is checking if there are curly braces `{}` in the input syntax. If there are, it
+    # extracts the content inside the curly braces and assigns it to the variable
+    # `content_inside_braces`.
     if start_brace_index != -1 and end_brace_index != -1:
         content_inside_braces = input_syntax[start_brace_index + 1:end_brace_index].strip()
 

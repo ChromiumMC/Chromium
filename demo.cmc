@@ -4,7 +4,7 @@
 
 
 @Custom_Model_Data[item/flint]:
- {"predicate": {"custom_model_data": 1000}, "model": "item/tablet_model"}
+ {"predicate": {"custom_model_data": 1000 }, "model": "item/tablet_model" }
 
 
 
@@ -14,7 +14,6 @@
  +summon cow
  +say Spawned
  +tag @s remove Test1
-
 
 }
 

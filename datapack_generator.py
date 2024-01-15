@@ -8,6 +8,8 @@ def datapack_build(pack_id,function_info):
  data = DataPack(f"{pack_id} data_pack")
 
  #built-in Functions
+# The code snippet is iterating over each `func_data` in the `function_info` list. It then checks the
+# value of `func_data[0]` to determine what action to take.
  for func_data in function_info:    #-----Checking------
   if func_data[0] == "": 
    None
