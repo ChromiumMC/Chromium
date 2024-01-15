@@ -24,7 +24,7 @@ For more detailed instructions and examples, read the [Coming Soon!](https://you
 
 ## Contributing
 
-Contributions are always welcome! If you'd like to contribute to this project, please read the [Coming Soon!](https://github.com/your-username/your-project-name/blob/main/CONTRIBUTING.md) before submitting a pull request.
+Contributions are always welcome! If you'd like to contribute to this project, please consider messaging me on discord before submitting a pull request.
 
 ## Contact
 
