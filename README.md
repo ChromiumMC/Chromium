@@ -1,7 +1,5 @@
 # Chromium
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
 ## Introduction
 
 Chromium is a multipurpose scripting language that aims to simplify the development Minecraft Datapacks. It is designed to be easy to learn and used by Datapack Creators/MapMakers.
@@ -27,10 +25,6 @@ For more detailed instructions and examples, read the [Coming Soon!](https://you
 ## Contributing
 
 Contributions are always welcome! If you'd like to contribute to this project, please read the [Coming Soon!](https://github.com/your-username/your-project-name/blob/main/CONTRIBUTING.md) before submitting a pull request.
-
-## License
-
-This project is licensed under the terms of the MIT License. See the [Coming Soon!](https://github.com/your-username/your-project-name/blob/main/LICENSE) file for more details.
 
 ## Contact
 
