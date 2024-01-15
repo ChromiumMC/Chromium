@@ -1,6 +1,6 @@
-## Chromium Language
+# Chromium Language
 
-### Example Code
+## Example Code
 ```
 
 @Resource_Pack:
@@ -23,7 +23,7 @@ directory/function_name:
  #custom function - Function in directory
 ```
 
-### Built-In Arguments
+## Built-In Arguments
 ```
 @Tick: Tick Function
 @Load: Load Function
@@ -32,11 +32,11 @@ directory/function_name:
 
 ```
 
-### Functions & Directories
+## Functions & Directories
 To Create a Function:
 ```
-Function_Name:
- Function Contents
+function_name:
+ function contents
 
 ```
 To Create a Function Within a Directory:
