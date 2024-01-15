@@ -1,1 +1,1 @@
-execute as @a[tag=!msg_sent] at @a run function demo:embed/function_97gd5 
+execute as @a at @s run function demo:embed/function_83f5h 

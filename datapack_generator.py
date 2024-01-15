@@ -12,7 +12,7 @@ def datapack_build(pack_id,function_info):
   if func_data[0] == "": 
    None
   elif "@Resource_Pack" in func_data[0]:
-    None
+   None
   elif "Custom_Model_Data" in func_data[0]:
    None
   elif func_data[0] == "@Load":

@@ -9,20 +9,14 @@
 
 
 @Tick:
-execute as @a[tag=!msg_sent] at @a run{
-  say 1
-  say 2
-  say 3
-}
+ execute as @a at @s run{
+ execute if entity @s[tag=Test1] run
+ +summon cow
+ +say Spawned
+ +tag @s remove Test1
 
-test/game:
-execute as @a[tag=!msg_sent] at @a run{
- execute if entity @s run    
- +say Test
- +say Test2
- +say Test1
+
 }
-say Non Branch 
 
 
 

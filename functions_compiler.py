@@ -1,6 +1,7 @@
 from beet import DataPack,Function
 import randomcharactergenerator
 
+#///Function Compiler for Auto Branch Functions For Datapacks 
 
 def process_syntax(input_syntax,data,pack_id,function_name,function_tags):
     # Replace '{' and '}' with '(' and ')' respectively

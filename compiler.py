@@ -4,7 +4,7 @@ from datapack_generator import datapack_build
 from resourcepack_generator import resourcepack_build
 
 def main(input_file, debug_mode=True):
-    syntax_content = open(input_file, "r+").read().replace("\n}","}").lstrip(" ")
+    syntax_content = open(input_file, "r+").read().replace("\n}","}").replace("\n\n}","}").lstrip(" ")
     blocks = syntax_content.strip().split('\n\n')
 
     compiled_data = []
@@ -36,13 +36,14 @@ if __name__ == '__main__':
     with open(input_file, "r+") as file:
         content = file.read()
         content = re.sub(r'run\s*{', 'run{', content)
+        content = re.sub(r'\n\n*}', '\n\n}', content)
         file.seek(0)
         file.write(content)
         file.truncate()
 
     compiled_data = main(input_file, debug_mode=True)
     pack_id = input_file.replace(".cmc","").replace(" ","_").lower()
-    print(compiled_data)
+    #print(compiled_data)
     datapack_build(pack_id,compiled_data)
-    #resourcepack_build(pack_id,compiled_data)
+    resourcepack_build(pack_id,compiled_data)
     input("Compiled successfuly!")
