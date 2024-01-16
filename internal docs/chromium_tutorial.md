@@ -31,7 +31,6 @@ directory/function_name:
 @Load: Load Function
 @Resource_Pack: Adds Resource Pack
 @Custom_Model_Data: Adds Custom Model Arguments for Resource Pack
-
 ```
 
 ## Functions & Directories
@@ -45,7 +44,6 @@ To Create a Function Within a Directory:
 ```
 directory_name/function_name:
  function Contents
-
 ```
 
 ## Branched Functions
@@ -58,14 +56,12 @@ say Test
 summon cow
 setblock ~ ~-1 ~ white_wool
 }
-
 ```
 Output:
 ```
 #function_name.mcfunction
 
 execute as @a at @s run filename:embed/generated_function
-
 ```
 Also:
   ```
@@ -74,7 +70,6 @@ Also:
 say Test
 summon cow
 setblock ~ ~-1 ~ white_wool
-
 ```
 
 ## Stacked Functions
@@ -91,6 +86,8 @@ execute if entity @s run
 ```
 Output:
 ```
+#function_name.mcfunction
+
 execute if entity @s run say Test
 execute if entity @s run summon cow
 execute if entity @s run setblock ~ ~-1 ~ white_wool
