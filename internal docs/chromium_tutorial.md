@@ -1,6 +1,6 @@
+> [!CAUTION]
+> ### 🚧 Under Contruction🚧
 # Chromium Language
-> [!NOTE]
-> ### 🚧Documentation is still Under Contruction🚧
 
 ## Example Template
 ```
@@ -48,9 +48,9 @@ directory_name/function_name:
 
 ```
 
-## Better Function Syntax
+## Branched Functions
 
-To Create a Function Block(example):
+To Create a Branched Function:
 ```
 function_name:
 execute as @a at @s run{
@@ -76,3 +76,45 @@ summon cow
 setblock ~ ~-1 ~ white_wool
 
 ```
+
+## Stacked Functions
+
+To Create a Stacked Function:
+```
+function_name:
+execute if entity @s run
++say Test
++summon cow
++setblock ~ ~-1 ~ white_wool
+
+
+```
+Output:
+```
+execute if entity @s run say Test
+execute if entity @s run summon cow
+execute if entity @s run setblock ~ ~-1 ~ white_wool
+
+```
+> [!NOTE]
+> **Stacked Functions(unlike Branched Functions) can be used with other commands other than `execute subcommands`**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
