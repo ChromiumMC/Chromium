@@ -1,6 +1,8 @@
 # Chromium Language
+> [!NOTE]
+> ### 🚧Documentation is still Under Contruction🚧
 
-## Example Code
+## Example Template
 ```
 
 @Resource_Pack:
@@ -46,7 +48,31 @@ directory_name/function_name:
 
 ```
 
+## Better Function Syntax
 
+To Create a Function Block(example):
+```
+function_name:
+execute as @a at @s run{
+say Test
+summon cow
+setblock ~ ~-1 ~ white_wool
+}
 
+```
+Output:
+```
+#function_name.mcfunction
 
+execute as @a at @s run filename:embed/generated_function
 
+```
+Also:
+  ```
+#embed/generated_function
+
+say Test
+summon cow
+setblock ~ ~-1 ~ white_wool
+
+```
