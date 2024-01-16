@@ -1,7 +1,7 @@
 > [!CAUTION]
 > ### 🚧Under Construction🚧
 # Getting Started
-
+### Start First by creating File with `.cmc` file extension 
 ## Example Template
 ```
 
