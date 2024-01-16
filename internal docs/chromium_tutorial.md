@@ -6,7 +6,7 @@
 ```
 
 @Resource_Pack:
- [Model_Name, Model_Directory, Texture_Name, Directory];
+ [Model_Name, Model_Directory_Input, Texture_Name, Texture_Directory_Input];
  
 
 
@@ -24,6 +24,9 @@
 directory/function_name:
  #custom function - Function in directory
 ```
+> [!NOTE]
+> **`@Resource_Pack` values: `Model_Name` & `Texture_Name` can be added into directory inside Resource pack. 
+   Example: `Directory_Name/Model_Name`**
 
 ## Built-In Arguments
 ```
