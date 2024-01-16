@@ -1,6 +1,6 @@
 > [!CAUTION]
 > ### 🚧 Under Contruction🚧
-# Chromium Language
+# Getting Started
 
 ## Example Template
 ```
