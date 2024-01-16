@@ -20,7 +20,7 @@ To install and use this scripting language, follow these steps:
 3. Open the extracted folder and find the main script file.
 4. Open the script file and start writing your Minecraft datapack and/or resource pack code.
 
-For more detailed instructions and examples, read the [Coming Soon!](Getting Started)!
+For more detailed instructions and examples, read the [Getting Started](https://github.com/ChromiumMC/Chromium/blob/main/internal%20docs/chromium_tutorial.md)
 
 ## Contributing
 
