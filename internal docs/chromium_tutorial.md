@@ -6,12 +6,12 @@
 ```
 
 @Resource_Pack:
- [Model Name, Model Directory, Texture Name, Directory];
+ [Model_Name, Model_Directory, Texture_Name, Directory];
  
 
 
 @Custom_Model_Data[Item Input]:
- {"predicate": {"custom_model_data": 1000 }, "model": "item/tablet_model" }
+ {"predicate": {"custom_model_data": (Value) }, "model": "Model_Name" }
 
 
 
