@@ -1,5 +1,5 @@
 > [!CAUTION]
-> ### 🚧 Under Construction🚧
+> ### 🚧Under Construction🚧
 # Getting Started
 
 ## Example Template
