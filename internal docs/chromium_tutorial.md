@@ -81,8 +81,6 @@ execute if entity @s run
 +say Test
 +summon cow
 +setblock ~ ~-1 ~ white_wool
-
-
 ```
 Output:
 ```
