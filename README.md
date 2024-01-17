@@ -7,7 +7,7 @@ Chromium is a multipurpose scripting language that aims to simplify the developm
 
 ## Features
 
-- Improved MCFunctions Syntax Usage
+- Improved MCFunctions Syntax
 - Simplifies the creation of Minecraft datapacks and resource packs
 - Includes Built-in functions for Datapacks and Resource Packs
 - Beginner Friendly
