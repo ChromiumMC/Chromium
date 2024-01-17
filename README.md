@@ -31,6 +31,7 @@ Contributions are always welcome! If you'd like to contribute to this project, p
 If you have any questions , please consider joining [Discord Server](https://discord.gg/x3bvraa6q2)
 
 ## Used Libraries
-> [tabbed_minecraft_scripting](https://github.com/davidkowalk/tabbed_minecraft_scripting)
-> [Beet](https://github.com/mcbeet/beet?tab=readme-ov-file)
+> ### [tabbed_minecraft_scripting](https://github.com/davidkowalk/tabbed_minecraft_scripting)
+
+> ### [Beet](https://github.com/mcbeet/beet?tab=readme-ov-file)
 
