@@ -32,4 +32,5 @@ If you have any questions , please consider joining [Discord Server](https://dis
 
 ## Used Libraries
 > [tabbed_minecraft_scripting](https://github.com/davidkowalk/tabbed_minecraft_scripting)
+> [Beet](https://github.com/mcbeet/beet?tab=readme-ov-file)
 
