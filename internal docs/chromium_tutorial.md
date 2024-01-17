@@ -96,6 +96,21 @@ execute if entity @s run setblock ~ ~-1 ~ white_wool
 ```
 > [!NOTE]
 > **Stacked Functions(unlike Branched Functions) can be used with other commands other than `execute subcommands`**
+>
+> Example:
+> ```
+> tag @s add
+> +First
+> +Second
+> +Third
+> ```
+> Output `mcfunction`:
+> ```
+> tag @s add First 
+> tag @s add Second 
+> tag @s add Third
+> ```
+
 
 
 
