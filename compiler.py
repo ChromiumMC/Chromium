@@ -1,7 +1,7 @@
 import ams_compiler as compiler
 import re
-from datapack_generator import datapack_build
-from resourcepack_generator import resourcepack_build
+from compilers.datapack_generator import datapack_build
+from compilers.resourcepack_generator import resourcepack_build
 
 def main(input_file, debug_mode=True):
     """
@@ -62,7 +62,9 @@ if __name__ == '__main__':
     # This code block is responsible for reading the content of the input file, making some
     # modifications to the content, compiling the modified content, and then generating a datapack and
     # resourcepack based on the compiled data.
-    input_file = "demo.cmc" # Provide the input file path
+
+    input_file = input("Enter .cmc file directory for compilation: ").strip(".cmc") + ".cmc" # Provide the input file path
+
     with open(input_file, "r+") as file:
         content = file.read()
         content = re.sub(r'run\s*{', 'run{', content)

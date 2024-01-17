@@ -1,1 +1,1 @@
-execute as @a at @s run function demo:embed/function_23m32 
+execute as @a at @s run function demo:embed/function_rzv84 

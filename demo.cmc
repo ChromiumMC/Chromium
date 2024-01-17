@@ -1,6 +1,6 @@
 @Resource_Pack:
  [item/tablet_model, C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.json, recovered_orcale, C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.png];
- 
+ [item/tablet_model2, C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.json, recovered_orcale2, C:\\Users\\minec\\Desktop\\projects\\void update\\covered_tablet.png];
 
 
 @Custom_Model_Data[item/flint]:
@@ -10,10 +10,10 @@
 
 @Tick:
  execute as @a at @s run{
- execute if entity @s[tag=Test1] run
- +summon cow
- +say Spawned
- +tag @s remove Test1
+ tag @s add
+ +First
+ +Second
+ +Third
 
 }
 
