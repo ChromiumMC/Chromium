@@ -28,3 +28,6 @@ Contributions are always welcome! If you'd like to contribute to this project, p
 ## Contact
 
 If you have any questions , please consider joining [Discord Server](https://discord.gg/x3bvraa6q2)
+
+## Used Libraries
+> [tabbed_minecraft_scripting](https://github.com/davidkowalk/tabbed_minecraft_scripting)
