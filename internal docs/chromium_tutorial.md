@@ -1,37 +1,133 @@
-# Chromium
+> [!CAUTION]
+> ### 🚧Under Construction🚧
+# Getting Started
+### Start First by creating File with `.cmc` file extension 
+## Example Template
+```
 
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+@Resource_Pack:
+ [Model_Name, Model_Directory_Input, Texture_Name, Texture_Directory_Input];
+ 
 
-## Introduction
 
-Chromium is a multipurpose scripting language that aims to simplify the development Minecraft Datapacks. It is designed to be easy to learn and used by Datapack Creators/MapMakers.
+@Custom_Model_Data[Item Input]:
+ {"predicate": {"custom_model_data": (Value) }, "model": "Model_Name" }
 
-## Features
 
-- Improved MCFunctions Syntax Usage
-- Simplifies the creation of Minecraft datapacks and resource packs
-- Includes Built-in functions for Datapacks and Resourcs
-- Beginner Friendly
 
-## Installing and using the language
+@Tick:
+ #Tick Function - Runs Per Tick
 
-To install and use this scripting language, follow these steps:
+@Load:
+ #Load Function - Runs when game loads
 
-1. Download the zip file from the [Coming Soon!](https://github.com/example)
-2. Extract the zip file to a location of your choice.
-3. Open the extracted folder and find the main script file.
-4. Open the script file and start writing your Minecraft datapack and/or resource pack code.
+directory/function_name:
+ #custom function - Function in directory
+```
+> [!NOTE]
+> **`@Resource_Pack` values: `Model_Name` & `Texture_Name` can be added into directory inside Resource pack. 
+   Example: `Directory_Name/Model_Name`**
 
-For more detailed instructions and examples, read the [documentation(Coming Soon)](https://your-username.github.io/example)!
+## Built-In Arguments
+```
+@Tick: Tick Function
+@Load: Load Function
+@Resource_Pack: Adds Resource Pack
+@Custom_Model_Data: Adds Custom Model Arguments for Resource Pack
+```
 
-## Contributing
+## Functions & Directories
+To Create a Function:
+```
+function_name:
+ function contents
 
-Contributions are always welcome! If you'd like to contribute to this project, please read the [contributing guidelines](https://github.com/your-username/your-project-name/blob/main/CONTRIBUTING.md) before submitting a pull request.
+```
+To Create a Function Within a Directory:
+```
+directory_name/function_name:
+ function Contents
+```
 
-## License
+## Branched Functions
 
-This project is licensed under the terms of the MIT License. See the [LICENSE](https://github.com/your-username/your-project-name/blob/main/LICENSE) file for more details.
+To Create a Branched Function:
+```
+function_name:
+execute as @a at @s run{
+say Test
+summon cow
+setblock ~ ~-1 ~ white_wool
+}
+```
+Output:
+```
+#function_name.mcfunction
 
-## Contact
+execute as @a at @s run filename:embed/generated_function
+```
+Also:
+  ```
+#embed/generated_function
 
-If you have any questions , please contact the developer at your-email@example.com.
+say Test
+summon cow
+setblock ~ ~-1 ~ white_wool
+```
+
+## Stacked Functions
+
+To Create a Stacked Function:
+```
+function_name:
+execute if entity @s run
++say Test
++summon cow
++setblock ~ ~-1 ~ white_wool
+```
+Output:
+```
+#function_name.mcfunction
+
+execute if entity @s run say Test
+execute if entity @s run summon cow
+execute if entity @s run setblock ~ ~-1 ~ white_wool
+
+```
+> [!NOTE]
+> **Stacked Functions(unlike Branched Functions) can be used with other commands other than `execute subcommands`**
+>
+> Example:
+> ```
+> tag @s add
+> +First
+> +Second
+> +Third
+> ```
+> Output `mcfunction`:
+> ```
+> tag @s add First 
+> tag @s add Second 
+> tag @s add Third
+> ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

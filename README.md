@@ -15,12 +15,11 @@ Chromium is a multipurpose scripting language that aims to simplify the developm
 
 To install and use this scripting language, follow these steps:
 
-1. Download the zip file from the [Coming Soon!](https://github.com/example)
-2. Extract the zip file to a location of your choice.
-3. Open the extracted folder and find the main script file.
-4. Open the script file and start writing your Minecraft datapack and/or resource pack code.
+1. Download the exe file from the [Installation](https://github.com/ChromiumMC/Chromium/releases/tag/exported)
+2. Open the script file and start writing your Minecraft datapack and/or resource pack code.
+3. Run the exe file and input the .cmc file location for compilation of the script.
 
-For more detailed instructions and examples, read the [Coming Soon!](https://your-username.github.io/example)!
+For more detailed instructions and examples on how to use the language, read the [Getting Started](https://github.com/ChromiumMC/Chromium/blob/main/internal%20docs/chromium_tutorial.md)
 
 ## Contributing
 
