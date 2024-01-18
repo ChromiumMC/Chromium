@@ -27,6 +27,8 @@ directory/function_name:
 > [!NOTE]
 > **`@Resource_Pack` values: `Model_Name` & `Texture_Name` can be added into directory inside Resource pack. 
    Example: `Directory_Name/Model_Name`**
+> 
+> *Also, Chromium allows for creation of resource packs only. which can be useful for whoever want to use it beside other compilers*
 
 ## Built-In Arguments
 ```
