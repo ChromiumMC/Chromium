@@ -1,6 +1,29 @@
 > [!NOTE]
 > ###  **Project is Still WIP🏗️**
 # Chromium
+```
+#Example
+
+@Resource_Pack:
+ [Model_Name, Model_Directory_Input, Texture_Name, Texture_Directory_Input];
+ 
+
+
+@Custom_Model_Data[Item Input]:
+ {"predicate": {"custom_model_data": (Value) }, "model": "Model_Name" }
+
+
+
+@Tick:
+ #Tick Function - Runs Per Tick
+
+@Load:
+ #Load Function - Runs when game loads
+
+directory/function_name:
+ #custom function - Function in directory
+
+```
 ## Introduction
 
 Chromium is a multipurpose scripting language that aims to simplify the development Minecraft Datapacks. It is designed to be easy to learn and used by Datapack Creators/MapMakers.
