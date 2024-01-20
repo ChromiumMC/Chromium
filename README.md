@@ -35,7 +35,9 @@ Chromium is a multipurpose scripting language that aims to simplify the developm
 - Includes Built-in functions for Datapacks and Resource Packs
 - Beginner Friendly
 > ### Planned Features
-> - [ ] Online file importing 
+> - [ ] Online file importing
+> - [ ] Pack Versions
+> - [ ] syntax highligher
 > - [ ] Smithed packs support
 > - [ ] Auto-Optimization option
 
